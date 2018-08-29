@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br"> 
+<head>
+	<meta charset="UTF-8"/>
+	<title>JavaScript em Teste</title>
+	
+</head>
+<body>
+	<script>
+		function lampadaGif (){
+			document.getElementById("luz").src="acendeLampada.jpg";
+		}
+	
+	</script>
+	<img src="lampadaApagada.jpg" id="luz" 
+		onmousemove="lampadaGif('acendeLampada.jpg)" 
+		onmouseout ="lampadaGif('2')" 
+		onclick ="lampadaGif('3')"
+	/>
+</body>
+</html>

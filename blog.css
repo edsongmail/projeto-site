@@ -1,0 +1,134 @@
+/* TRABALHANDO INTERFACE */
+
+div#interface {
+	position:relative;
+	width: 1040px;
+	height: 100%;
+	margin: 50px auto;
+	/*background: url("isinha.jpg");*/
+	color: black;
+	background-color: #g7dddd;
+	/* box-shadow: 0px 0px 1px rgba(0,0,0,.2);*/
+	text-align: justify;
+}
+.img_inter {
+	border: 1px solid black;
+	width: 400px;
+	height: 300px;
+	margin-left: 30px;
+	margin-top: 25px;
+}
+div#menu h1{
+	display:none;
+}
+
+/* TRABALHANDO MENU */
+
+div#menu ul{
+	list-style: none;
+	position: fixed;
+	height: 42px;
+	width: 1001px;
+	text-align: center;
+	top: -16px;
+	background-color: lightyellow;
+	box-shadow: 0px 0px 0px 1px rgba(0,0,0,.1);
+}
+div#menu li{
+	display: inline-block;
+	margin: 19px -10px 0px 0px;
+	color: #000;
+	padding-left:10px;
+	padding-right:40px;
+	font-size: 15pt;
+	-webkit-transition: background-color 0.5ss;
+	transition: background-color 0.5s;
+	box-shadow: 0px 0px 0.9px rgba(0,0,0,.2);
+	text-shadow: 0px 0px 0px rgba(0,0,0,.1);
+}
+div#menu a{
+	text-decoration:none;
+}
+div#menu li:hover{
+	background-color: #ddd;
+	box-shadow: 0px 0px 0.9px rgba(60,10,10,.5);
+	text-shadow: 0px 0px 1px rgba(0,0,0,.5);
+	border-bottom: 1px solid #000;
+}
+
+/* TRABALHANDO CONTEUDO PRINCIPAL */
+
+section#conteudop{
+	display: block;
+	float: left;
+	width: 500px;	
+	margin: 20px auto;
+	padding: 15px 0px 0px 10px;
+}
+/* TRABALHANDO CONTEUDO LATERAL */
+
+aside#conteudol{
+	display: block;
+	float: right;
+	width: 500px;
+	padding: 10px 15px 0px 10px;
+}
+
+/* TRABALHANDO RODAFÉ */
+
+footer#conteudof{
+	clear: both;
+	text-align: center;
+}
+
+/* TRABALHANDO FORMULÁRIO */
+
+div#contato{
+	border: 0.5px solid black;
+	margin: 90px 420px;
+	text-align: center;
+}
+.contato h3{
+	font-size: 18pt;
+	color: %000;
+	padding-bottom: 10px;
+}
+.contato p{
+	margin-right: 18px;
+	margin-left: 18px;
+	padding: 10px 0px 10px;
+	border-bottom: 1px solid lightgrey;
+	border-top: 1px solid lightgrey;
+	color: red;
+	font-size: 10pt;
+}
+.contato input, input:hover{
+	text-align: center;
+	outline-color: black;
+	color: black;
+	margin: 10px 1px 15px 0px;
+	border: 1.2px solid black;
+}
+.contato button {
+	border: 0.5px solid black;
+	padding: 3px 10px 2px 10px;
+	outline-color: black;
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+.contato textarea{
+	text-align: center;
+	outline-color: black;
+	margin: 10px 1px 15px 0px;
+	border: 1.2px solid black;
+	width: 164px;
+	height: 70px
+}
+
+
+
+
+
+
+
+
